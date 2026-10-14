@@ -1,0 +1,30 @@
+# Copyrighted game content: the GOG copy (hd/, cd/) and everything extracted or upscaled from it
+data/
+# Imported sprites, atlases, flipbooks, music, sfx: all derived from the game files
+unreal/Content/
+*.mkv
+*.mp4
+*.wav
+*.opus
+# Gameplay screenshots (game art)
+notes/*.png
+# Ghidra project (embeds CRUSADER.EXE) and decompiled C: not redistributed
+ghidra/
+# Third-party checkouts (ScummVM, mduggan/crusader-disasm, ...): re-clone, see README
+reference/
+# Local build and tooling
+.venv/
+tools/upscaler/realesrgan-ncnn-vulkan
+tools/upscaler/models/
+__pycache__/
+unreal/Saved/
+unreal/Binaries/
+unreal/Intermediate/
+unreal/DerivedDataCache/
+unreal/Build/
+unreal/.vscode/
+build/
+*.log
+.DS_Store
+start
+Open Unreal Editor.command
